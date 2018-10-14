@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#f000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+android:id="@+id/id_dilog_view1"
+    android:textColor="#ffffff"
+    android:gravity="center"
+    android:textSize="24sp"
+    android:text="Độ Lớn Line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/id_dilog_do_lon_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_dilog_view1"
+        android:gravity="center"
+        android:text="100"
+        android:textColor="#fffdfd" />
+    <SeekBar
+
+        android:id="@+id/id_dilog_seebak"
+        android:background="#85cc00"
+        android:max="100"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp" />
+
+    <TextView
+        android:id="@+id/id_dilog_mau1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="138dp"
+        android:gravity="center"
+        android:text="Màu"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@+id/id_dilog_mau1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/id_dilog_maudo"
+            android:layout_margin="2dp"
+            android:background="#f10000"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <Button
+            android:id="@+id/id_dilog_cam"
+            android:layout_margin="2dp"
+            android:background="#ff8000"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <Button
+            android:id="@+id/id_dilog_vang"
+            android:layout_margin="2dp"
+            android:background="#fbff00"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <Button
+            android:id="@+id/id_dilog_xanhla"
+            android:layout_margin="2dp"
+            android:background="#15ff00"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/id_dilog_xanhduonng"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:background="#0414f9" />
+        <Button
+            android:id="@+id/id_dilog_tim"
+            android:layout_margin="2dp"
+            android:background="#ad0af9"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <Button
+            android:id="@+id/id_dilog_hong"
+            android:layout_margin="2dp"
+            android:background="#ff0eeb"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

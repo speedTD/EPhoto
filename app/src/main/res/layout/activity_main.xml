@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#fafafa"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_weight="5"
+        android:background="#f7ff0b"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:layout_weight="5"
+            android:background="#1545f4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:id="@+id/id_thuvien"
+                android:textStyle="normal"
+                android:textColor="#05e61c"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Thư Viện"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:layout_weight="5"
+            android:background="#ed5b17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/id_conmingsoon"
+                android:textStyle="italic"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Comming"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:background="#fff01e"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+        android:layout_margin="3dp"
+        android:padding="5dp"
+        android:layout_weight="5"
+        android:background="#fa2929"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          >
+
+            <TextView
+                android:id="@+id/id_suaanh"
+                android:textStyle="italic"
+                android:textColor="#ffd900"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Sửa Ảnh"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:padding="5dp"
+            android:layout_weight="5"
+            android:background="#24f408"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/id_suaanh_nc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Máy ảnh"
+                android:textColor="#2a0ee1"
+                android:textSize="30sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
